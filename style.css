@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
+.day-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    height: 50vh;
+}
+
 .day-card {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border: thin solid;
+}
+
+.hour-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hour-card {
+    border: thin solid;
+    height: 150px;
+    width: 150px;
 }
